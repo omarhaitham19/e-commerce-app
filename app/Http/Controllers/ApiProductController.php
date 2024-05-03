@@ -15,7 +15,7 @@ class ApiProductController extends Controller
         if ($products === null) {
             return response()->json([
                 "msg"=>"products not found!"
-            ],404);
+            ],404); 
         }
         return ProductResource::collection($products);
     }
