@@ -69,11 +69,14 @@ This is an e-commerce web application designed to facilitate online shopping. Th
 8. Start the server:
 
    ```bash
-   
    php artisan serve
    ```
 
 9. Admin credentials:
+
+     ```bash
    email: admin@gmail.com
    password: 12345678
+        ```
+
 
