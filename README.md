@@ -17,5 +17,5 @@ Welcome to our Ecommerce App repository! This application is designed to provide
 - **Product Search**: Search for specific products.
 - **Shopping Cart**: Authenticated customers can add products to their cart.
 - **Order Placement**: Authenticated customers can place orders.
-- **Account Management**: Authenticated customers can update their password, name, and email.
+- **Account Management**: Authenticated customers can update their name, email, and password.
 - **Order History**: View past order history.
