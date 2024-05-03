@@ -54,7 +54,7 @@ This is an e-commerce web application designed to facilitate online shopping. Th
    ```bash
    php artisan db:seed
    ```
-6. create symbolic link:
+6. Create a symbolic link for storage:
 
     ```bash
    php artisan storage:link
