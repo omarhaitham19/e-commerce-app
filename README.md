@@ -74,9 +74,9 @@ This is an e-commerce web application designed to facilitate online shopping. Th
 
 9. Admin credentials:
 
-     ```bash
+   ```bash
    email: admin@gmail.com
    password: 12345678
-        ```
+   ```
 
 
