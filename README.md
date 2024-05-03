@@ -9,7 +9,7 @@ This is an e-commerce web application designed to facilitate online shopping. Th
 - **Dashboard**: Admins have access to a centralized dashboard.
 - **Category Management**: Add, update, and delete product categories.
 - **Product Management**: Add, update, and delete products, and assign them to categories.
-- **Order Management**: View all orders and take appropriate actions.
+- **Order Management**: Admins have the ability to view all orders and take appropriate actions. Additionally, admins can generate PDF documents for any orders they require.
 - **Admin Management**: Add other admins and manage their roles and permissions.
 - **Customer Management**: Manage customer accounts.
 
