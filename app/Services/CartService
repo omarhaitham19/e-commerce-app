@@ -1,0 +1,34 @@
+<?php
+namespace App\Services;
+
+use App\Models\Cart;
+use App\Models\Product;
+use Carbon\Carbon;
+
+class CartService
+{
+    public function removeExpiredCarts()
+    {
+        $expirationTime = Carbon::now()->subHours(24);
+
+        $expiredCarts = Cart::where('created_at', '<', $expirationTime)->get();
+
+        foreach ($expiredCarts as $cart) {
+            $product = Product::find($cart->product_id);
+
+            $cartQuantity = $cart->quantity;
+
+            $cart->delete();
+
+            if ($product) {
+                $product->quantity += $cartQuantity;
+                $product->save();
+            }
+        }
+    }
+}
+
+
+
+
+?>
