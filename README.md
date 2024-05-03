@@ -21,3 +21,59 @@ This is an e-commerce web application designed to facilitate online shopping. Th
 - **Account Management**: Authenticated customers can update their password, name, and email.
 - **Order History**: Authenticated customers can View past order history.
 
+
+## Usage
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/omarhaitham19/e-commerce-app.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. Configure your environment variables:
+
+   - Copy the `.env.example` file to `.env` and configure it with your database credentials and other settings.
+
+4. Run migrations:
+
+   ```bash
+   php artisan migrate
+   ```
+
+5. Run database seeders:
+
+   ```bash
+   php artisan db:seed
+   ```
+6. create symbolic link:
+
+    ```bash
+   php artisan storage:link
+   ```
+
+7. Compile assets:
+
+   ```bash
+   npm run dev
+   ```
+
+8. Start the server:
+
+   ```bash
+   
+   php artisan serve
+   ```
+
+9. Admin credentials:
+   email: admin@gmail.com
+   password: 12345678
+
