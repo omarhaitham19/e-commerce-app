@@ -21,6 +21,8 @@ This is an e-commerce web application designed to facilitate online shopping. Th
 - **Account Management**: Authenticated customers can update their password, name, and email.
 - **Order History**: Authenticated customers can View past order history.
 
+## Payment Integration
+If you want to enable customer payments by card, you only have to obtain the necessary Stripe API keys from your Stripe account and add them to the `.env` file in your project. This will allow the application to securely handle payment transactions.
 
 ## Usage
 
